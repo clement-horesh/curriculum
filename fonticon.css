@@ -1,0 +1,66 @@
+@font-face {
+	font-family: "Inter";
+	src: url("font/Inter/Inter-VariableFont_slnt\,wght.ttf") format("ttf");
+  }
+h1 {
+	font-size: 2rem
+}
+
+h1,
+h2 {
+	line-height: 140%;
+	-webkit-margin-after: 1.5rem;
+	margin-block-end: 1.5rem
+}
+
+h2 {
+	font-size: 1.5rem
+}
+
+h3 {
+	font-size: 1.25rem;
+	line-height: 150%
+}
+
+h4 {
+	margin: 0 0 1rem;
+	-webkit-margin-after: .5rem;
+	margin-block-end: .5rem
+}
+
+h4,
+p {
+	font-size: 1rem;
+	line-height: 150%
+}
+
+.arrowShape {
+	background: var(--gray-10);
+	width: 2.5rem;
+	transform: rotate(180deg);
+	flex-direction: row-reverse;
+	margin-left: 1.5rem
+}
+
+.arrowShape:hover {
+	cursor: pointer;
+	background: var(--gray-20)
+}
+
+.arrowShape:active {
+	transform: scale(-.9)
+}
+
+.arrow {
+	filter: var(--icon);
+	padding-right: 1px;
+	width: 2.5rem;
+	height: 2.5rem
+}
+
+.arrowShape {
+	transition: all .1s;
+	background: var(--gray-20);
+	border-radius: 3rem;
+	display: flex
+}
