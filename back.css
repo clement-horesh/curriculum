@@ -50,6 +50,12 @@
 	height: 17.7rem;
 	z-index: 1
 }
+@media (max-width:1024px) {
+	.styles_bg__2xoRM {
+		height: 30rem;
+		z-index: 1
+	}
+}
 
 
 
