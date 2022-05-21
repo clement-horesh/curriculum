@@ -56,6 +56,26 @@
 		z-index: 1
 	}
 }
+@media (max-width:500px) {
+	.styles_bg__2xoRM {
+		height: 35rem;
+		z-index: 1
+	}
+}
+
+@media (max-width:400px) {
+	.styles_bg__2xoRM {
+		height: 40rem;
+		z-index: 1
+	}
+}
+
+@media (max-width:340px) {
+	.styles_bg__2xoRM {
+		height: 45rem;
+		z-index: 1
+	}
+}
 
 
 
